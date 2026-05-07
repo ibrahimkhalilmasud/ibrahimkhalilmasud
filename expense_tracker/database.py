@@ -56,6 +56,15 @@ def initialize_db() -> None:
 
             CREATE UNIQUE INDEX IF NOT EXISTS idx_recurring_log_expense_id
                 ON recurring_log(expense_id);
+
+            CREATE INDEX IF NOT EXISTS idx_expenses_date
+                ON expenses(date);
+
+            CREATE INDEX IF NOT EXISTS idx_expenses_category_date
+                ON expenses(category, date);
+
+            CREATE INDEX IF NOT EXISTS idx_expenses_recurring
+                ON expenses(is_recurring);
             """
         )
 
@@ -91,7 +100,7 @@ def get_expenses(
     limit: Optional[int] = None,
 ) -> list[Expense]:
     query = "SELECT * FROM expenses WHERE 1=1"
-    params: list = []
+    params: list[object] = []
     if category:
         query += " AND category = ?"
         params.append(category)

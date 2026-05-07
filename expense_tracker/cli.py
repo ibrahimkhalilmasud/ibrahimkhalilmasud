@@ -1,7 +1,6 @@
 """Rich-powered interactive CLI for the expense tracker."""
 import sys
-from datetime import date, datetime
-from pathlib import Path
+from datetime import date
 from typing import Optional
 
 from rich import box
@@ -9,8 +8,6 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.prompt import Confirm, FloatPrompt, IntPrompt, Prompt
 from rich.table import Table
-from rich.text import Text
-
 from . import database as db
 from .auto_categorizer import auto_categorize, list_categories
 from .models import Budget, Expense
@@ -45,6 +42,30 @@ def _ask_date(prompt: str = "Date (YYYY-MM-DD, blank = today)") -> date:
             return date.fromisoformat(raw)
         except ValueError:
             _error("Invalid date format. Use YYYY-MM-DD.")
+
+
+def _ask_optional_date(prompt: str, *, default: str = "") -> Optional[date]:
+    while True:
+        raw = Prompt.ask(prompt, default=default).strip()
+        if not raw:
+            return None
+        try:
+            return date.fromisoformat(raw)
+        except ValueError:
+            _error("Invalid date format. Use YYYY-MM-DD.")
+
+
+def _ask_date_range() -> tuple[Optional[date], Optional[date]]:
+    while True:
+        start_date = _ask_optional_date("Start date (YYYY-MM-DD, blank = no limit)")
+        end_date = _ask_optional_date(
+            "End date   (YYYY-MM-DD, blank = today)",
+            default=date.today().isoformat(),
+        )
+        if start_date and end_date and start_date > end_date:
+            _error("Start date cannot be after end date.")
+            continue
+        return start_date, end_date
 
 
 def _pick_category(suggested: str) -> str:
@@ -118,11 +139,7 @@ def list_expenses_ui() -> None:
     except ValueError:
         pass
 
-    start_raw = Prompt.ask("Start date (YYYY-MM-DD, blank = no limit)", default="")
-    end_raw = Prompt.ask("End date   (YYYY-MM-DD, blank = today)", default=date.today().isoformat())
-
-    start_date = date.fromisoformat(start_raw) if start_raw else None
-    end_date = date.fromisoformat(end_raw) if end_raw else date.today()
+    start_date, end_date = _ask_date_range()
 
     expenses = db.get_expenses(category=category, start_date=start_date, end_date=end_date)
 
@@ -269,10 +286,7 @@ def manage_budgets_ui() -> None:
 def export_csv_ui() -> None:
     _header("Export to CSV")
     filepath = Prompt.ask("Save file path", default="expenses_export.csv")
-    start_raw = Prompt.ask("Start date (YYYY-MM-DD, blank = no limit)", default="")
-    end_raw = Prompt.ask("End date   (YYYY-MM-DD, blank = today)", default=date.today().isoformat())
-    start_date = date.fromisoformat(start_raw) if start_raw else None
-    end_date = date.fromisoformat(end_raw) if end_raw else date.today()
+    start_date, end_date = _ask_date_range()
     count = export_to_csv(filepath, start_date, end_date)
     _success(f"Exported {count} expense(s) to {filepath}")
 
