@@ -1,4 +1,4 @@
-# <div align="center">Ibrahim Khalil Masud</div>
+<h1 align="center">Ibrahim Khalil Masud</h1>
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=900&color=58A6FF&center=true&vCenter=true&width=900&lines=Python+Developer+%7C+Web+Builder+%7C+Systems+Organizer;Building+useful+tools%2C+clean+interfaces%2C+and+practical+workflows;Focused+on+automation%2C+web+apps%2C+and+developer-friendly+solutions" alt="Typing SVG" />
@@ -7,7 +7,7 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=ibrahimkhalilmasud&style=for-the-badge&color=0e75b6" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/ibrahimkhalilmasud?style=for-the-badge&logo=github" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/ibrahimkhalilmasud?style=for-the-badge&logo=github" alt="GitHub user stars" />
+  <img src="https://img.shields.io/badge/Focus-Automation%20%7C%20Web%20Apps%20%7C%20Open%20Source-7c3aed?style=for-the-badge" alt="Focus areas" />
 </div>
 
 <br />
