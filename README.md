@@ -1,7 +1,7 @@
 <h1 align="center">Ibrahim Khalil Masud</h1>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=900&color=58A6FF&center=true&vCenter=true&width=900&lines=Python+Developer+%7C+Web+Builder+%7C+Systems+Organizer;Building+useful+tools%2C+clean+interfaces%2C+and+practical+workflows;Focused+on+automation%2C+web+apps%2C+and+developer-friendly+solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=900&color=58A6FF&center=true&vCenter=true&width=900&lines=Python+Developer+%7C+Web+Builder+%7C+Systems+Organizer;Building+useful+tools%2C+clean+interfaces%2C+and+practical+workflows;Focused+on+automation%2C+web+apps%2C+and+developer-friendly+solutions" alt="Animated text introducing Ibrahim Khalil Masud as a Python developer, web builder, and systems organizer" />
 </div>
 
 <div align="center">
@@ -33,7 +33,7 @@
 
    </td>
     <td width="42%" align="center" valign="middle">
-      <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3R0NWQ1MTVhOTR3d2NoeW1tNzg0MGxvNmZoZm50a2Q5a2QwdjA2MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l3vRfNA1p0rvhMSvS/giphy.gif" width="100%" alt="Coding animation" />
+      <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3R0NWQ1MTVhOTR3d2NoeW1tNzg0MGxvNmZoZm50a2Q5a2QwdjA2MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l3vRfNA1p0rvhMSvS/giphy.gif" width="100%" loading="lazy" alt="Animated illustration of a developer coding at a workstation" />
     </td>
   </tr>
 </table>
@@ -68,16 +68,16 @@
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ibrahimkhalilmasud&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub statistics showing contribution and repository activity" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahimkhalilmasud&layout=compact&theme=tokyonight&hide_border=true" alt="Most used programming languages chart" />
+  <img height="180em" loading="lazy" src="https://github-readme-stats.vercel.app/api?username=ibrahimkhalilmasud&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub statistics showing contribution and repository activity" />
+  <img height="180em" loading="lazy" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahimkhalilmasud&layout=compact&theme=tokyonight&hide_border=true" alt="Most used programming languages chart" />
 </div>
 
 <div align="center">
-  <img width="75%" src="https://streak-stats.demolab.com?user=ibrahimkhalilmasud&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img width="75%" loading="lazy" src="https://streak-stats.demolab.com?user=ibrahimkhalilmasud&theme=tokyonight&hide_border=true" alt="GitHub contribution streak statistics" />
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ibrahimkhalilmasud&theme=tokyo-night&hide_border=true&area=true" alt="Activity graph" />
+  <img width="100%" loading="lazy" src="https://github-readme-activity-graph.vercel.app/graph?username=ibrahimkhalilmasud&theme=tokyo-night&hide_border=true&area=true" alt="GitHub activity graph" />
 </div>
 
 ## ⏱️ Daily Coding Activity
@@ -87,7 +87,7 @@
 </div>
 
 <div align="center">
-  <img width="100%" src="https://placehold.co/1200x260/0d1117/58a6ff?text=WakaTime+Stats+Card+Placeholder+%E2%80%94+add+your+username+when+ready" alt="Placeholder image for a future WakaTime coding statistics panel" />
+  <img width="100%" loading="lazy" src="https://placehold.co/1200x260/0d1117/58a6ff?text=WakaTime+Stats+Card+Placeholder+-+add+your+username+when+ready" alt="Placeholder image for a future WakaTime coding statistics panel" />
 </div>
 
 ## 🧩 Featured Work In This Repository
@@ -141,11 +141,11 @@ A structured documentation workspace for:
 </div>
 
 <div align="center">
-  <img width="100%" src="https://placehold.co/1200x260/0d1117/22c55e?text=Snake+Animation+Placeholder+%E2%80%94+connect+a+GitHub+Action+to+render+it" alt="Placeholder image for a future animated GitHub contribution snake" />
+  <img width="100%" loading="lazy" src="https://placehold.co/1200x260/0d1117/22c55e?text=Snake+Animation+Placeholder+-+connect+a+GitHub+Action+to+render+it" alt="Placeholder image for a future animated GitHub contribution snake" />
 </div>
 
 <div align="center">
-  <img width="100%" src="https://placehold.co/1200x260/0d1117/a855f7?text=3D+Contribution+Graph+Placeholder+%E2%80%94+add+generated+SVG+output+later" alt="Placeholder image for a future three-dimensional GitHub contribution graph" />
+  <img width="100%" loading="lazy" src="https://placehold.co/1200x260/0d1117/a855f7?text=3D+Contribution+Graph+Placeholder+-+add+generated+SVG+output+later" alt="Placeholder image for a future three-dimensional GitHub contribution graph" />
 </div>
 
 ---
