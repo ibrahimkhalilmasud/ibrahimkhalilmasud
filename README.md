@@ -21,7 +21,7 @@
 - 🔭 Building practical products with Python, Laravel, React, Vue, Flask, and SQL
 - 🌱 Interested in **web development, automation, AI-assisted workflows, and open source**
 - 🧠 I enjoy turning messy processes into **clear systems and usable tools**
-- 📁 This repository is both my **profile hub** and a home for side projects like **Expense Tracker** and **PA Operations**
+- 📁 This profile repository also includes working project folders like **Expense Tracker** and **PA Operations**
 - ⚡ I like blending **clean structure** with **high-visibility design**
 
 ## 🎯 Current Focus
@@ -83,11 +83,11 @@
 ## ⏱️ Daily Coding Activity
 
 <div align="center">
-  <img src="https://img.shields.io/badge/WakaTime-Connect%20your%20profile%20to%20show%20live%20coding%20stats-000000?style=for-the-badge&logo=wakatime&logoColor=white" alt="WakaTime profile connection placeholder badge" />
+  <img src="https://img.shields.io/badge/WakaTime-Connect%20your%20profile%20to%20show%20live%20coding%20stats-000000?style=for-the-badge&logo=wakatime&logoColor=white" alt="WakaTime profile badge" />
 </div>
 
 <div align="center">
-  <img width="100%" src="https://placehold.co/1200x260/0d1117/58a6ff?text=WakaTime+Stats+Card+Placeholder+%E2%80%94+add+your+username+when+ready" alt="Placeholder for WakaTime coding statistics visualization" />
+  <img width="100%" src="https://placehold.co/1200x260/0d1117/58a6ff?text=WakaTime+Stats+Card+Placeholder+%E2%80%94+add+your+username+when+ready" alt="WakaTime coding statistics panel" />
 </div>
 
 ## 🧩 Featured Work In This Repository
@@ -141,11 +141,11 @@ A structured documentation workspace for:
 </div>
 
 <div align="center">
-  <img width="100%" src="https://placehold.co/1200x260/0d1117/22c55e?text=Snake+Animation+Placeholder+%E2%80%94+connect+a+GitHub+Action+to+render+it" alt="Placeholder for animated GitHub contribution snake visualization" />
+  <img width="100%" src="https://placehold.co/1200x260/0d1117/22c55e?text=Snake+Animation+Placeholder+%E2%80%94+connect+a+GitHub+Action+to+render+it" alt="Animated visualization of GitHub contributions" />
 </div>
 
 <div align="center">
-  <img width="100%" src="https://placehold.co/1200x260/0d1117/a855f7?text=3D+Contribution+Graph+Placeholder+%E2%80%94+add+generated+SVG+output+later" alt="Placeholder for 3D GitHub contribution calendar visualization" />
+  <img width="100%" src="https://placehold.co/1200x260/0d1117/a855f7?text=3D+Contribution+Graph+Placeholder+%E2%80%94+add+generated+SVG+output+later" alt="Three-dimensional view of GitHub contribution activity" />
 </div>
 
 ---
