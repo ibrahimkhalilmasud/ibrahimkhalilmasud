@@ -1,6 +1,6 @@
 """Auto-process recurring expenses on application startup."""
 import calendar
-from datetime import date
+from datetime import date, timedelta
 
 from . import database as db
 from .models import Expense
@@ -9,14 +9,11 @@ from .models import Expense
 def _next_due(last_run: date, interval: str) -> date:
     """Return the date when the next recurrence is due."""
     if interval == "daily":
-        return date(last_run.year, last_run.month, last_run.day + 1
-                    ) if last_run.day < calendar.monthrange(last_run.year, last_run.month)[1] \
-               else date(last_run.year, last_run.month, last_run.day).__class__.fromordinal(
-                   last_run.toordinal() + 1)
+        return last_run + timedelta(days=1)
     if interval == "weekly":
-        return date.fromordinal(last_run.toordinal() + 7)
+        return last_run + timedelta(days=7)
     # monthly: same day next month (clamped to last day of that month)
-    total_months = last_run.year * 12 + last_run.month  # 0-indexed month after increment
+    total_months = last_run.year * 12 + last_run.month  # total months for arithmetic
     year = total_months // 12
     month = total_months % 12 + 1
     max_day = calendar.monthrange(year, month)[1]

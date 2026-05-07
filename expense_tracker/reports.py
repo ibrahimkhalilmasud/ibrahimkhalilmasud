@@ -1,12 +1,11 @@
 """Reports, summaries, budget alerts and CSV export."""
 import calendar
 import csv
-import io
-from datetime import date, timedelta
+from datetime import date
+from pathlib import Path
 from typing import Optional
 
 from . import database as db
-from .models import Budget
 
 
 # ── Monthly summary ──────────────────────────────────────────────────────────
@@ -70,7 +69,7 @@ def ascii_bar_chart(data: dict[str, float], width: int = 30) -> str:
     max_val = max(data.values()) or 1
     lines = []
     for label, value in data.items():
-        bar_len = int((value / max_val) * width)
+        bar_len = 0 if value <= 0 else max(1, int((value / max_val) * width))
         bar = "█" * bar_len
         lines.append(f"  {label:<25} {bar} ${value:,.2f}")
     return "\n".join(lines)
@@ -85,7 +84,9 @@ def export_to_csv(
 ) -> int:
     """Export expenses to a CSV file. Returns the number of rows written."""
     expenses = db.get_expenses(start_date=start_date, end_date=end_date)
-    with open(filepath, "w", newline="", encoding="utf-8") as f:
+    export_path = Path(filepath).expanduser()
+    export_path.parent.mkdir(parents=True, exist_ok=True)
+    with export_path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["ID", "Date", "Category", "Description", "Amount", "Recurring", "Interval"])
         for e in expenses:
