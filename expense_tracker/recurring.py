@@ -13,7 +13,7 @@ def _next_due(last_run: date, interval: str) -> date:
     if interval == "weekly":
         return last_run + timedelta(days=7)
     # monthly: same day next month (clamped to last day of that month)
-    total_months = last_run.year * 12 + last_run.month  # 0-indexed month after increment
+    total_months = last_run.year * 12 + last_run.month  # total months for arithmetic
     year = total_months // 12
     month = total_months % 12 + 1
     max_day = calendar.monthrange(year, month)[1]
