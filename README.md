@@ -68,8 +68,8 @@
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ibrahimkhalilmasud&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahimkhalilmasud&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ibrahimkhalilmasud&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub statistics showing contribution and repository activity" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahimkhalilmasud&layout=compact&theme=tokyonight&hide_border=true" alt="Most used programming languages chart" />
 </div>
 
 <div align="center">
@@ -87,7 +87,7 @@
 </div>
 
 <div align="center">
-  <img width="100%" src="https://placehold.co/1200x260/0d1117/58a6ff?text=WakaTime+Stats+Card+Placeholder+%E2%80%94+add+your+username+when+ready" alt="WakaTime coding statistics panel" />
+  <img width="100%" src="https://placehold.co/1200x260/0d1117/58a6ff?text=WakaTime+Stats+Card+Placeholder+%E2%80%94+add+your+username+when+ready" alt="Placeholder image for a future WakaTime coding statistics panel" />
 </div>
 
 ## 🧩 Featured Work In This Repository
@@ -141,11 +141,11 @@ A structured documentation workspace for:
 </div>
 
 <div align="center">
-  <img width="100%" src="https://placehold.co/1200x260/0d1117/22c55e?text=Snake+Animation+Placeholder+%E2%80%94+connect+a+GitHub+Action+to+render+it" alt="Animated visualization of GitHub contributions" />
+  <img width="100%" src="https://placehold.co/1200x260/0d1117/22c55e?text=Snake+Animation+Placeholder+%E2%80%94+connect+a+GitHub+Action+to+render+it" alt="Placeholder image for a future animated GitHub contribution snake" />
 </div>
 
 <div align="center">
-  <img width="100%" src="https://placehold.co/1200x260/0d1117/a855f7?text=3D+Contribution+Graph+Placeholder+%E2%80%94+add+generated+SVG+output+later" alt="Three-dimensional view of GitHub contribution activity" />
+  <img width="100%" src="https://placehold.co/1200x260/0d1117/a855f7?text=3D+Contribution+Graph+Placeholder+%E2%80%94+add+generated+SVG+output+later" alt="Placeholder image for a future three-dimensional GitHub contribution graph" />
 </div>
 
 ---
