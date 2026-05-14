@@ -1,4 +1,5 @@
-<h1 align="center">Ibrahim Khalil Masud</h1>
+````markdown
+<h1 align="center">Muhammad Ibrahim</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=1000&lines=AI+Systems+Engineer;Computer+Vision+Researcher;Building+Virtual+Try-On+Systems;Generative+AI+%7C+Automation+%7C+Infrastructure" />
@@ -7,43 +8,30 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ibrahimkhalilmasud&style=for-the-badge&color=00F7FF" />
   <img src="https://img.shields.io/github/followers/ibrahimkhalilmasud?style=for-the-badge&logo=github&color=7C3AED" />
+  <img src="https://img.shields.io/badge/Focus-AI%20Systems%20%7C%20Computer%20Vision%20%7C%20Automation-black?style=for-the-badge&logo=openai&logoColor=00F7FF" />
 </p>
 
 ---
 
 ## ⚡ About Me
 
-```python
-class IbrahimKhalilMasud:
+I build applied AI systems focused on:
 
-    def __init__(self):
-        self.role = "AI Systems Engineer"
+- Computer Vision
+- Virtual Try-On
+- Fabric Intelligence
+- Generative AI
+- Workflow Automation
+- AI Infrastructure
 
-        self.focus = [
-            "Computer Vision",
-            "Virtual Try-On",
-            "Fabric Intelligence",
-            "Generative AI",
-            "Automation Systems"
-        ]
-
-    def build(self):
-        return "Deployable AI systems for real-world usage."
-
-
-ibrahim = IbrahimKhalilMasud()
-
-print(ibrahim.build())
-```
+My work focuses on turning research ideas into deployable systems that solve operational and real-world problems.
 
 ---
 
 ## 🧠 Engineering Stack
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,fastapi,flask,react,vue,docker,gcp,linux,git,vscode" />
-
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,fastapi,flask,react,vue,docker,gcp,linux,git,vscode" />
 </p>
 
 ---
@@ -57,11 +45,13 @@ print(ibrahim.build())
 
 ### 👗 AI Virtual Try-On
 
-- Human parsing
-- Pose estimation
-- Garment transfer
-- Diffusion pipelines
-- AI rendering workflows
+Advanced computer vision pipeline for:
+
+- human parsing
+- pose estimation
+- garment transfer
+- AI rendering
+- diffusion workflows
 
 </td>
 
@@ -69,10 +59,12 @@ print(ibrahim.build())
 
 ### 🧵 Fabric Intelligence
 
-- Material classification
-- Texture analysis
-- Fabric behavior systems
-- Textile AI pipelines
+Experimental AI systems for:
+
+- textile classification
+- texture analysis
+- fabric behavior prediction
+- material understanding
 
 </td>
 
@@ -81,11 +73,26 @@ print(ibrahim.build())
 
 ---
 
+## ⚙️ Current Research Areas
+
+```txt
+AI Fashion Intelligence
+Computer Vision
+Virtual Dressing Systems
+Human Parsing
+Pose Estimation
+Generative AI Pipelines
+Workflow Automation
+Autonomous Operations
+````
+
+---
+
 ## 📊 GitHub Analytics
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=ibrahimkhalilmasud&show_icons=true&theme=tokyonight&hide_border=true" />
-  
+
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahimkhalilmasud&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
@@ -99,28 +106,17 @@ print(ibrahim.build())
 
 ---
 
-## ⚙️ Research Areas
-
-```txt
-AI Fashion Systems
-Computer Vision
-Virtual Dressing
-Fabric Intelligence
-Generative AI Pipelines
-Workflow Automation
-Infrastructure Engineering
-```
-
----
-
 ## 🧬 Engineering Philosophy
 
 > Build systems that survive production.
 
-- scalable
-- maintainable
-- deployable
-- operationally useful
+I care about:
+
+* scalable infrastructure
+* usable interfaces
+* maintainable architecture
+* operational efficiency
+* deployable intelligence
 
 ---
 
@@ -157,9 +153,6 @@ Infrastructure Engineering
 ---
 
 <p align="center">
-
-```diff
-+ Building intelligent systems for AI, fashion, and automation.
-```
-
+  <b>Building intelligent systems for AI, fashion, and automation.</b>
 </p>
+```
