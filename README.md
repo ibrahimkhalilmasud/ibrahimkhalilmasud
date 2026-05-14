@@ -83,11 +83,11 @@
 ## ⏱️ Daily Coding Activity
 
 <div align="center">
-  <img src="https://img.shields.io/badge/WakaTime-Connect%20your%20profile%20to%20show%20live%20coding%20stats-000000?style=for-the-badge&logo=wakatime&logoColor=white" alt="WakaTime profile badge" />
+  <img src="https://img.shields.io/badge/WakaTime-Live%20Coding%20Stats-000000?style=for-the-badge&logo=wakatime&logoColor=white" alt="WakaTime live coding statistics badge" />
 </div>
 
 <div align="center">
-  <img width="100%" loading="lazy" src="https://placehold.co/1200x260/0d1117/58a6ff?text=WakaTime+Stats+Card+Placeholder+-+add+your+username+when+ready" alt="Placeholder image for a future WakaTime coding statistics panel" />
+  <img width="100%" loading="lazy" src="https://github-readme-stats.vercel.app/api/wakatime?username=ibrahimkhalilmasud&theme=tokyonight&hide_border=true" alt="WakaTime coding activity statistics card" />
 </div>
 
 ## 🧩 Featured Work In This Repository
@@ -133,19 +133,19 @@ A structured documentation workspace for:
 
 <div align="center">
   <a href="https://github.com/ibrahimkhalilmasud/ibrahimkhalilmasud">
-    <img src="https://img.shields.io/badge/Snake%20Animation-Placeholder%20ready%20for%20generated%20workflow%20output-1f6feb?style=for-the-badge" alt="Snake placeholder badge" />
+    <img src="https://img.shields.io/badge/Snake%20Animation-Auto%20Generated-1f6feb?style=for-the-badge" alt="Auto generated snake animation badge" />
   </a>
   <a href="https://github.com/ibrahimkhalilmasud/ibrahimkhalilmasud">
-    <img src="https://img.shields.io/badge/3D%20Contribution%20Graph-Placeholder%20ready%20for%20profile%20asset%20output-7c3aed?style=for-the-badge" alt="3D contribution graph placeholder badge" />
+    <img src="https://img.shields.io/badge/3D%20Contribution%20Graph-Auto%20Generated-7c3aed?style=for-the-badge" alt="Auto generated 3D contribution graph badge" />
   </a>
 </div>
 
 <div align="center">
-  <img width="100%" loading="lazy" src="https://placehold.co/1200x260/0d1117/22c55e?text=Snake+Animation+Placeholder+-+connect+a+GitHub+Action+to+render+it" alt="Placeholder image for a future animated GitHub contribution snake" />
+  <img width="100%" loading="lazy" src="https://raw.githubusercontent.com/ibrahimkhalilmasud/ibrahimkhalilmasud/output/github-contribution-grid-snake-dark.svg" alt="Animated GitHub contribution snake" />
 </div>
 
 <div align="center">
-  <img width="100%" loading="lazy" src="https://placehold.co/1200x260/0d1117/a855f7?text=3D+Contribution+Graph+Placeholder+-+add+generated+SVG+output+later" alt="Placeholder image for a future three-dimensional GitHub contribution graph" />
+  <img width="100%" loading="lazy" src="https://raw.githubusercontent.com/ibrahimkhalilmasud/ibrahimkhalilmasud/output/profile-night-rainbow.svg" alt="Three-dimensional GitHub contribution graph" />
 </div>
 
 ---
