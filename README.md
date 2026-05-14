@@ -1,4 +1,4 @@
-<h1 align="center">Ibrahim Khalil Masud</h1>
+<h1 align="center">Muhammad Ibrahim Khalil</h1>
 
 <div align="center">
 
