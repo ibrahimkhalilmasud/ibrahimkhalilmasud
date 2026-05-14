@@ -1,0 +1,42 @@
+name: Profile Assets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate contribution snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ibrahimkhalilmasud
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Generate 3D contribution profile
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ibrahimkhalilmasud
+
+      - name: Collect generated assets
+        run: |
+          mkdir -p dist
+          cp profile-3d-contrib/profile-night-rainbow.svg dist/profile-night-rainbow.svg
+
+      - name: Deploy generated assets to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
